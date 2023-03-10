@@ -1,0 +1,18 @@
+.sobre__description {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    color: #464646;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .sobre__description {
+        width: 47rem;
+        font-size: 1rem;
+        line-height: 1.1875rem;
+    }
+
+}

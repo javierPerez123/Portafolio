@@ -1,0 +1,23 @@
+.hobbie {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: calc(50% - 3rem);
+    background: rgba(255, 255, 255, 1);
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 1.5rem 2rem -0.5rem rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width:768px) {
+    .hobbie {
+        width: calc(34% - 3rem);
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .hobbie {
+        justify-content: center;
+        height: 7rem;
+    }
+}

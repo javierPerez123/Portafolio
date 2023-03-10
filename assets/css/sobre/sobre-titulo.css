@@ -1,0 +1,17 @@
+.sobre__titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    color: #464646;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .sobre__titulo {
+        font-size: 2rem;
+        line-height: 2.375rem;
+    }
+
+}

@@ -1,0 +1,39 @@
+.proyecto__imagen {
+    width: 100%;
+    height: 45vw;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.proyecto__imagen-primero {
+    background: url('../../../img/proyectos/pag-frutayfruto.png') no-repeat center / cover;
+}
+
+.proyecto__imagen-segundo {
+    background: url('../../../img/proyectos/juego-ahorcado.png') no-repeat center / cover;
+}
+
+.proyecto__imagen-tercero {
+    background: url('../../../img/proyectos/pag-encriptador.png') no-repeat center / cover;
+}
+
+.proyecto__imagen-cuarto {
+    background: url('../../../img/proyectos/pag-ahorcado.png') no-repeat center / cover;
+}
+
+@media screen and (min-width: 1280px) {
+    .proyecto__imagen {
+        width: 70%;
+        height: 26vw;
+        border-bottom-right-radius: 1rem;
+        border-bottom-left-radius: 1rem;
+    }
+
+    .proyecto__imagen-segundo {
+        order: 3;
+    }
+
+    .proyecto__imagen-cuarto {
+        order: 3;
+    }
+}

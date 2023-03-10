@@ -1,0 +1,22 @@
+.banner__imagen {
+    width: 6.125rem;
+    height: 6.125rem;
+    border-radius: 50%;
+    background: url('/assets/img/perfil.jpg') no-repeat center / cover;
+}
+
+@media screen and (min-width:768px) {
+    .banner__imagen {
+        width: 10rem;
+        height: 10rem;
+        order: 6;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .banner__imagen {
+        width: 23rem;
+        height: 23rem;
+        order: 6;
+    }
+}

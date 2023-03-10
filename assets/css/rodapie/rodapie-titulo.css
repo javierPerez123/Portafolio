@@ -1,0 +1,11 @@
+.rodapie__titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    padding-top: 1.3rem;
+}

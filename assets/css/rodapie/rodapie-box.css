@@ -1,0 +1,11 @@
+.rodapie__box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background: white;
+}

@@ -1,0 +1,86 @@
+.banner__item:nth-child(1) .banner__link:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 0.999rem;
+    color: #F34F29;
+}
+
+.banner__item:nth-child(2) .banner__link:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 0.999rem;
+    color: #1da1f2;
+}
+
+.banner__item:nth-child(3) .banner__link:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 0.999rem;
+    background: -webkit-linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.banner__item:nth-child(4) .banner__link:hover {
+    transition: 0.5s ease-in-out;
+    font-size: 0.999rem;
+    color: #4B77A1;
+}
+
+@media screen and (min-width:768px) {
+    .fa-github {
+        margin-left: 0.3rem;
+    }
+
+    .fa-linkedin {
+        margin-left: 0.3rem;
+    }
+
+    .fa-instagram {
+        margin-left: 0.3rem;
+    }
+
+    .fa-id-card-clip {
+        margin-left: 0.3rem;
+    }
+
+    .banner__item:nth-child(1) .banner__link:hover {
+        font-size: 1.125rem;
+    }
+
+    .banner__item:nth-child(2) .banner__link:hover {
+        font-size: 1.125rem;
+    }
+
+    .banner__item:nth-child(3) .banner__link:hover {
+        font-size: 1.125rem;
+    }
+
+    .banner__item:nth-child(4) .banner__link:hover {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+
+    .banner__item:nth-child(1) .banner__link:hover {
+        font-size: 1.6rem;
+    }
+
+    .banner__item:nth-child(2) .banner__link:hover {
+        font-size: 1.6rem;
+    }
+
+    .banner__item:nth-child(3) .banner__link:hover {
+        font-size: 1.6rem;
+    }
+
+    .banner__item:nth-child(4) .banner__link:hover {
+        font-size: 1.6rem;
+    }
+
+}

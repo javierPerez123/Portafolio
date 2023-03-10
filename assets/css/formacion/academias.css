@@ -1,0 +1,26 @@
+.academias {
+    background: #f2effa;
+}
+
+.academias__container {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    background: #f2effa;
+}
+
+@media screen and (min-width:768px) {
+    .academias__container {
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .academias__container {
+        width: 80rem;
+        margin: 0 auto;
+    }
+}

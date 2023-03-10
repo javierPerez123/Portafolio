@@ -1,0 +1,13 @@
+.contacto__imagen {
+    display: none;
+    background: url('../../img/contacto/contacto.png') no-repeat center / cover;
+}
+
+@media screen and (min-width: 1280px) {
+    .contacto__imagen {
+        display: block;
+        width: 35rem;
+        height: 35rem;
+        background: url('../../img/contacto/contacto.png') no-repeat center / cover;
+    }
+}

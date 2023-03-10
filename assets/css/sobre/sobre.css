@@ -1,0 +1,15 @@
+.sobre {
+    padding: 1rem;
+    background: #f2effa;
+}
+
+@media screen and (min-width: 1280px) {
+    .sobre {
+        padding: 4rem;
+    }
+
+    .sobre__container {
+        width: 80rem;
+        margin: 0 auto;
+    }
+}

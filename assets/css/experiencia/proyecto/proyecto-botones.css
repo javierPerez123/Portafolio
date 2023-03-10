@@ -1,0 +1,28 @@
+.proyecto__botones {
+    margin: 0.5rem 0;
+
+}
+
+.proyecto__boton {
+    margin-left: 0.5rem;
+    margin-right: 0;
+    padding: 0.75rem 1rem;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 1rem;
+    border: 0.125rem solid #673ab7;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.proyecto__boton-repositorio {
+    background: rgba(255, 255, 255, 1);
+    color: #673ab7;
+}
+
+.proyecto__boton-demo {
+    background: #673ab7;
+    color: rgba(255, 255, 255, 1);
+}

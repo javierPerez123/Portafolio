@@ -1,0 +1,5 @@
+.sobre__firma {
+    width: 8.75rem;
+    height: 3.25rem;
+    background: url('/assets/img/firma.png') no-repeat center / cover;
+}
