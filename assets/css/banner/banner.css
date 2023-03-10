@@ -1,4 +1,8 @@
 .banner {
+    background: rgba(245, 245, 245, 1);
+}
+
+.banner__container {
     padding: 1rem;
     background: rgba(245, 245, 245, 1);
 }
