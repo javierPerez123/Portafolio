@@ -1,0 +1,13 @@
+@media screen and (max-width:1080px) {
+    .nav__botones {
+        display: flex;
+        position: relative;
+        width: 3rem;
+    }
+}
+
+@media screen and (min-width:1080px) {
+    .nav__botones {
+        display: none;
+    }
+}
