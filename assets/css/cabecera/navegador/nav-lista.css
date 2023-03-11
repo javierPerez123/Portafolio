@@ -21,7 +21,7 @@
         position: absolute;
         margin: 0;
         width: 100%;
-        height: calc(100% - 2.98875rem);
+        height: calc(1000vw - 2.98875rem);
         top: 2.98875rem;
         left: 0%;
 
