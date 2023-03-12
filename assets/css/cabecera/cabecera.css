@@ -1,5 +1,17 @@
+body {
+    margin-top: 2.98875rem;
+}
+
 .cabecera {
     background: rgba(245, 245, 245, 1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.cabeceraEnContacto {
+    position: relative;
 }
 
 .cabecera__container {

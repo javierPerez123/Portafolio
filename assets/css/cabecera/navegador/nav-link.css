@@ -19,6 +19,17 @@
         color: black;
         border-bottom: 2px solid black;
     }
+
+    .linkObservado {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid black;
+    }
 }
 
 @media screen and (min-width:1080px) {
@@ -30,5 +41,16 @@
         line-height: 1.1875rem;
         text-decoration: none;
         color: rgba(70, 70, 70, 1);
+    }
+
+    .linkObservado {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 2.1875rem;
+        text-decoration: none;
+        color: black;
+        border-bottom: 2px solid black;
     }
 }
