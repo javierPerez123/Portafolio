@@ -1,5 +1,6 @@
 .proyecto__botones {
     margin: 0.5rem 0;
+    display: flex;
 
 }
 
@@ -15,6 +16,7 @@
     border: 0.125rem solid #673ab7;
     border-radius: 1rem;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .proyecto__boton-repositorio {
