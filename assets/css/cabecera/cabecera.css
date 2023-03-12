@@ -21,6 +21,10 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
+    body {
+        margin-top: 3.1875rem;
+    }
+
     .cabecera__container {
         width: 80rem;
         margin: 0 auto;

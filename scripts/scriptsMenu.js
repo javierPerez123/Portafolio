@@ -10,7 +10,8 @@ export const mostrarMenu = () => {
     menu.classList.toggle('mostrarMenu');
 }
 
-export const quitarMenu = () => {
+export const quitarMenu = (evento) => {
+    console.log(evento)
     const menu = document.querySelector('.nav__lista');
     btnExit.classList.toggle('mostrar-fa-x');
     menu.classList.toggle('mostrarMenu');

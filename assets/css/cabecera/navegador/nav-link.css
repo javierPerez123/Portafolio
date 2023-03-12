@@ -46,11 +46,19 @@
     .linkObservado {
         font-family: 'Raleway';
         font-style: normal;
-        font-weight: 500;
-        font-size: 2rem;
-        line-height: 2.1875rem;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1875rem;
         text-decoration: none;
         color: black;
         border-bottom: 2px solid black;
+    }
+
+    .fa-mug-hot {
+        display: none;
+    }
+
+    .activate {
+        display: block;
     }
 }
