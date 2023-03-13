@@ -2,7 +2,6 @@ export const observer = new IntersectionObserver(
     (entries) => {
         entries.forEach(entry => {
             const id = entry.target.getAttribute('id')
-            console.log(id)
             const sectionLink = document.querySelector(`.nav__lista a[href^="#${id}"]`)
 
             if (entry.isIntersecting) {
@@ -13,7 +12,6 @@ export const observer = new IntersectionObserver(
                 }
                 document.querySelector('.nav__lista a.linkObservado i').remove()
                 document.querySelector('.nav__lista a.linkObservado').classList.remove('linkObservado')
-
                 sectionLink.classList.add('linkObservado')
                 sectionLink.appendChild(icon())
             }

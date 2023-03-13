@@ -20,6 +20,10 @@
     border-bottom: 0.25rem solid blueviolet;
 }
 
+.error1 {
+    border: 0.2rem solid red;
+}
+
 .formulario__entrada-textarea::placeholder {
     font-family: 'Raleway';
     font-style: normal;
